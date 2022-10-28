@@ -1,0 +1,28 @@
+/* * {
+    outline: 1px solid red
+} */
+
+
+body {
+    background-image: linear-gradient(180deg, rgb(82, 0, 99), rgb(0, 110, 255));
+
+    height: 100vh;
+}
+
+.info {
+    margin-top: 10rem;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.sub-info {
+    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 0.493);
+    font-size: large;
+    margin-top: 10px;
+}
+
+.div-title {
+    margin-top: 20px;
+}
