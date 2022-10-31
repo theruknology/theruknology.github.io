@@ -12,9 +12,15 @@
 */
 
 .light1 {
-    background: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
-    background: -webkit-linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
     color: rgb(63, 63, 63);
+}
+
+body {
+    height: fit-content;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /* 
@@ -39,10 +45,11 @@
 
 /* Main Container */
 .main-container {
-    width: 100%;
     
-    height: 100vh;
+    
+    height: fit-content;
     flex-direction: column;
+    
 }
 
 
@@ -58,6 +65,22 @@
     margin-block: 1rem;
 
     letter-spacing: -4px;
+
+    position: relative;
+
+    padding-block: 5rem;
+}
+
+.back-text {
+    position: absolute;
+
+    font-size: 200px;
+    font-weight: 900;
+    letter-spacing: -9px;
+    
+    line-height: 0.75;
+
+    color: rgba(75, 74, 74, 0.068);
 }
 
 /*  ---- styling for hierarchy */
@@ -72,3 +95,32 @@
     padding-left: 400px;
     font-size: 80px;
 }
+
+.project-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 50px;
+    width: 25vw;
+
+    border-radius: 15px;
+
+    border: 2px solid rgba(75, 74, 74, 0.068);
+
+    background:rgba(4, 0, 255, 0.664);
+
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.project-view {
+    gap: 3rem;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+}
+
