@@ -1,0 +1,123 @@
+.title-bg {
+  /* background-image: linear-gradient(
+      rgb(255, 255, 255) 0%,
+      rgba(255, 255, 255, 0) 10%,
+      rgba(255, 255, 255, 0) 90%,
+      rgb(255, 255, 255) 100%
+    ),
+    url("../media/services-background.jpg"); */
+  background: none;
+  padding-bottom: 2rem;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../media/portfolio-bg.webp");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  color: white;
+}
+
+.work-container h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+}
+
+.work-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.work-grid-bg {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 2, 2, 0) 0%,
+    rgba(0, 0, 0, 0.5) 15%,
+    rgba(5, 5, 5, 0.5) 100%
+  );
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 900px) {
+  .work-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .work-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.work-item {
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+h3.project-title {
+  font-family: "Inter", sans-serif;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+}
+
+p.date {
+  background-color: rgb(88, 88, 88);
+  padding: 0.2rem;
+  padding-inline: 0.5rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+
+  font-size: 0.9rem;
+}
+
+.thumbnail {
+  border: 0.2rem solid rgba(255, 255, 255, 0.377);
+  aspect-ratio: 1280/720;
+  border-radius: 1rem;
+
+  background-position: center;
+  background-size: 100%;
+  cursor: pointer;
+
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.thumbnail:hover,
+.thumbnail:focus {
+  box-shadow: 0 0 50px 2px rgba(255, 1, 234, 0.589);
+
+  border: 0.2rem solid rgb(255, 1, 234);
+  background-size: 110%;
+}
+
+.du-bg {
+  background-image: url("../media/digitalupscale-thumbnail.jpg");
+}
+
+.cl-bg {
+  background-image: url("../media/circuitlab-thumbnail.jpg");
+}
+
+.fs-bg {
+  background-image: url("../media/flowstate-thumbnail.jpg");
+}
+
+.of-bg {
+  background-image: url("../media/flowstate-thumbnail.jpg");
+}

@@ -1,0 +1,255 @@
+/* Home for reusable css and common styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+.blocks {
+  width: 100px;
+  height: 500px;
+  border: 1px solid blue;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+section {
+  padding-block: 1rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.w-adjust {
+  width: min(100ch, 100% - 4rem);
+  margin-inline: auto;
+}
+
+.title-bg {
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+
+  /* min-height: 200px; */
+  background-size: cover;
+
+  background-image: linear-gradient(
+      rgb(255, 255, 255) 0%,
+      rgba(255, 255, 255, 0) 10%,
+      rgba(255, 255, 255, 0) 90%,
+      rgb(255, 255, 255) 100%
+    ),
+    url("../media/steps-background.jpg");
+}
+
+.title h1 {
+  line-height: 2.8rem;
+}
+
+.title p {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.bold-span {
+  font-weight: 700;
+}
+
+.primary-navigation {
+  flex-direction: column;
+}
+
+/* Use Javascript and button to make display block */
+.primary-navigation ul {
+  display: none;
+}
+
+.primary-navigation ul.show {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.primary-navigation.full-screen {
+  height: 100vh;
+  z-index: 9999;
+}
+
+.logo-mobile-ham-section {
+  align-items: center;
+}
+
+.logo-mobile-ham-section svg {
+  margin-left: auto;
+}
+
+.logo {
+  color: black;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-links {
+  list-style: none;
+  flex-direction: column;
+
+  gap: 0.5rem;
+  margin-block: 1rem;
+}
+
+.nav-links li {
+  display: block;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.active-link a {
+  font-weight: 700;
+  color: #5d00a7;
+}
+
+.call-to-action {
+  background-color: #5d00a7;
+  color: white !important;
+  padding-inline: 1.2rem;
+  padding-block: 0.7rem;
+  border-radius: 0.8rem;
+}
+
+.cta-li {
+  padding-block: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-li:hover {
+  transform: translatey(-15%);
+}
+
+nav {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.993);
+  border-radius: 1rem;
+  right: 50%;
+  transform: translateX(50%);
+
+  width: 100%;
+
+  padding-inline: 1rem;
+  padding-block: 1.2rem;
+}
+
+.nav-links a:hover {
+  color: #5d00a7;
+}
+
+@media (min-width: 900px) {
+  .primary-navigation {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .primary-navigation ul {
+    display: flex;
+  }
+  .nav-links {
+    flex-direction: row;
+    gap: 2rem;
+
+    margin-block: 0rem;
+  }
+  .logo-mobile-ham-section svg {
+    display: none;
+  }
+  .cta-li {
+    padding-block: 0rem;
+  }
+  .logo-mobile-ham-section {
+    width: fit-content;
+  }
+}
+
+.subtitle-small {
+  color: #5d00a7;
+}
+
+.subtitle-small h2 {
+  font-size: 1.4rem;
+  position: relative;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.subtitle-small h2::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px; /* Adjust the width as desired */
+  height: 7px;
+  background-color: #5d00a7;
+}
+
+.subtitle-large h2 {
+  font-size: 1.4rem;
+  position: relative;
+  margin-bottom: 15px;
+  color: #5d00a7;
+  text-transform: uppercase;
+
+  line-height: 30px;
+}
+
+.subtitle-large h2::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 80px; /* Adjust the width as desired */
+  height: 7px;
+  background-color: #5d00a7;
+}
+
+.subtitle-large h2::before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 90px;
+  width: 20px; /* Adjust the width as desired */
+  height: 7px;
+  background-color: #5d00a7;
+}
+
+footer {
+  min-height: 500px;
+  background-color: #1e1e1e;
+  padding-block: 2rem;
+}
+
+.footer-section {
+  color: rgb(206, 206, 206);
+}
+
+.footer-section a {
+  color: white;
+}
