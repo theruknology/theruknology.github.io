@@ -1,0 +1,63 @@
+.title-bg {
+  background: none !important;
+  padding-bottom: 0;
+}
+
+.title {
+  color: white;
+}
+
+.title h1 {
+  margin-top: 1rem;
+  color: #d6a3ff;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.title h1::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 80px; /* Adjust the width as desired */
+  height: 7px;
+  background-color: #d6a3ff;
+}
+
+body {
+  background: linear-gradient(90deg, #000000bd 0%, #000000bd 100%),
+    url("../media/telephone-background.jpg");
+}
+
+.contact-section-bg {
+  background: none;
+}
+
+.budg {
+  margin-bottom: 1rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+a.account-link {
+  width: fit-content;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #f2f4f8;
+  color: #0366d6;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+a.account-link:hover {
+  background-color: #8eb8ff;
+}
