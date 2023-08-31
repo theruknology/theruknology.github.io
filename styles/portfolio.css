@@ -5,7 +5,7 @@
       rgba(255, 255, 255, 0) 90%,
       rgb(255, 255, 255) 100%
     ),
-    url("../media/services-background.jpg"); */
+    url("../media/services-background.webp"); */
   background: none;
   padding-bottom: 2rem;
 }
@@ -109,19 +109,19 @@ p.date {
 }
 
 .du-bg {
-  background-image: url("../media/digitalupscale-thumbnail.jpg");
+  background-image: url("../media/digitalupscale-thumbnail.webp");
 }
 
 .cl-bg {
-  background-image: url("../media/circuitlab-thumbnail.jpg");
+  background-image: url("../media/circuitlab-thumbnail.webp");
 }
 
 .fs-bg {
-  background-image: url("../media/flowstate-thumbnail.jpg");
+  background-image: url("../media/flowstate-thumbnail.webp");
 }
 
 .of-bg {
-  background-image: url("../media/flowstate-thumbnail.jpg");
+  background-image: url("../media/flowstate-thumbnail.webp");
 }
 
 

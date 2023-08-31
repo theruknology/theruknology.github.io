@@ -3,7 +3,7 @@ header {
       rgba(212, 216, 253, 0) 80%,
       rgb(212, 216, 253) 90%
     ),
-    url("../media/hero-background.jpg");
+    url("../media/hero-background.webp");
   background-size: cover;
 }
 
@@ -260,7 +260,7 @@ a.book-call {
       rgba(255, 255, 255, 0) 90%,
       rgb(255, 255, 255) 100%
     ),
-    url("../media/services-background.jpg");
+    url("../media/services-background.webp");
   background-size: cover;
   background-position: center;
 }
@@ -498,7 +498,7 @@ a.book-call {
       rgba(255, 255, 255, 0) 90%,
       rgb(255, 255, 255) 100%
     ),
-    url("../media/steps-background.jpg");
+    url("../media/steps-background.webp");
 }
 
 .simple-steps-section {

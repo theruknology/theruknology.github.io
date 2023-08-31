@@ -49,7 +49,7 @@ img {
       rgba(255, 255, 255, 0) 90%,
       rgb(255, 255, 255) 100%
     ),
-    url("../media/steps-background.jpg");
+    url("../media/steps-background.webp");
 }
 
 .title h1 {
@@ -178,13 +178,13 @@ ul.primary-navigation li a:hover {
     display: block;
     margin-left: auto;
     background-color: none;
-    background-image: url("../media/hamburger-icon.png");
+    background-image: url("../media/hamburger-icon.webp");
     border: 0;
     background-size: cover;
   }
 
   .mobile-nav-toggle[aria-expanded="true"] {
-    background-image: url("../media/hamburger-icon.png");
+    background-image: url("../media/hamburger-icon.webp");
   }
 
   .cta-li {
@@ -416,7 +416,7 @@ footer {
 /*  */
 .contact-section-bg {
   background: linear-gradient(90deg, #000000bd 0%, #000000bd 100%),
-    url("../media/telephone-background.jpg");
+    url("../media/telephone-background.webp");
 }
 
 .contact-section {

@@ -27,7 +27,7 @@
       rgba(255, 255, 255, 0) 90%,
       rgb(255, 255, 255) 100%
     ),
-    url("../media/services-background.jpg");
+    url("../media/services-background.webp");
   background-size: cover;
   background-position: center;
 }
@@ -176,7 +176,7 @@ p.price {
       rgba(255, 255, 255, 0) 90%,
       rgb(255, 255, 255) 100%
     ),
-    url("../media/steps-background.jpg");
+    url("../media/steps-background.webp");
 }
 
 .simple-steps-section {

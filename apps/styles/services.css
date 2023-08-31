@@ -27,7 +27,7 @@
       rgba(255, 255, 255, 0) 90%,
       rgb(255, 255, 255) 100%
     ),
-    url("../media/services-background.jpg");
+    url("../media/services-background.webp");
   background-size: cover;
   background-position: center;
 }
@@ -170,7 +170,7 @@
       rgba(255, 255, 255, 0) 90%,
       rgb(255, 255, 255) 100%
     ),
-    url("../media/steps-background.jpg");
+    url("../media/steps-background.webp");
 }
 
 .simple-steps-section {
@@ -241,7 +241,7 @@
 /*  */
 .contact-section-bg {
   background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%),
-    url("../media/telephone-background.jpg");
+    url("../media/telephone-background.webp");
 }
 
 .contact-section {

@@ -113,7 +113,7 @@ body {
 .hero-visual {
     width: 50%;
     aspect-ratio: 1;
-    background: url(resources/heroElement.png);
+    background: url(resources/heroElement.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ body {
 
 .tc-title-card {
     grid-row: 1/3;
-    background: url(resources/cardLight.png);
+    background: url(resources/cardLight.webp);
 }
 
 .tc-title-card > h2 {
@@ -227,7 +227,7 @@ body {
 }
 
 .tc-card {
-    background: url(resources/cardLight2.png);
+    background: url(resources/cardLight2.webp);
     gap: 1rem;
 }
 
@@ -342,15 +342,15 @@ body {
 }  
 
 .pn1 {
-    background-image: url("resources/penIcon.png");
+    background-image: url("resources/penIcon.webp");
 
 }
 .pn2 {
-    background-image: url("resources/mailIcon.png");
+    background-image: url("resources/mailIcon.webp");
 
 }
 .pn3 {
-    background-image: url("resources/callIcon.png");
+    background-image: url("resources/callIcon.webp");
 
 }
 
